@@ -86,15 +86,13 @@ customLinks:
       url: http://www.infoq.com/cn/
     - text: Jekyll
       url: http://jekyllrb.com
-
-message: Friends
+      message: Friends
   - item:
     - text: Font Awesome
       url: http://fortawesome.github.io/Font-Awesome/
     - text: jQuery
       url: http://jquery.com/
-
-message: 其他链接
+      message: 其他链接
 
 #googleAnaly, your id link UA-12345678-X
 googleAnaly:
