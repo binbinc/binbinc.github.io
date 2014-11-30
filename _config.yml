@@ -64,9 +64,10 @@ author:
     name: binbinc
     email: canybox@163.com
     imageLink: ./images/portrait.jpg
-    simpleIntro: 我是「binbinc」，读书行路，为梦想加油。
+    simpleIntro: 我是「binbinc」，读书行路，为梦想加油
     detailIntro:
-      <p>记录技术实践，总结读书心得，思考行业发展趋势。</p>
+      <p>记录技术与管理实践，总结读书心得，思考行业发展趋势</p>
+      <p>燃烧吧，青年</p>
 
 #Follow me, you can choose your icon by http://fortawesome.github.io/Font-Awesome/icons/#brand
 follow:
