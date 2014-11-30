@@ -14,16 +14,17 @@ comment: true
         <div class="about-image">
             <img src="{{ site.author.imageLink }}" />
         </div>
-    </div>
-    <div class="fn-clear"></div>
-    <div class="social">
-        {% for link in site.follow %}
-        <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
-        {% endfor %}
-    </div>
-    <div class="fn-clear"></div>
-    <div class="contact">
-        <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        
+        <div class="fn-clear"></div>
+        <div class="social">
+            {% for link in site.follow %}
+            <a href="{{ link.url }}" target="_blank"><i class="{{ link.class }}"></i></a>
+            {% endfor %}
+        </div>
+        <div class="fn-clear"></div>
+        <div class="contact">
+            <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>
+        </div>
     </div>
     
     
