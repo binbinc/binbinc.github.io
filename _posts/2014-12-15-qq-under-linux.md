@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  为什么QQ在linux下无法使用
+title:  为什么在linux下无法使用QQ
 date:   2014-12-15 23:42:35
 category: "Linux"
 ---
