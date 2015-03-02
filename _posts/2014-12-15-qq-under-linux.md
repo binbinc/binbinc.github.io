@@ -12,12 +12,9 @@ category: "Linux"
 
 今天有点无聊，想看下linux下QQ能不能用
 
-
 体验了一把，发现只有WebQQ能用，tar.gz和DEB包根本不可用
 
-
 看来企鹅对linux下的QQ毫不在乎，安装不了都不知道，还不如坦诚一点直接说不支持
-
 
 
 ### 使用WebQQ
