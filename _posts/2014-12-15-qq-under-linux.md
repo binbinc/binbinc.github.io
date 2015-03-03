@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  为什么在linux下无法使用QQ
+title:  腾讯为什么不支持linux QQ
 date:   2014-12-15 23:42:35
 category: "Linux"
 ---
@@ -14,8 +14,9 @@ category: "Linux"
 
 体验了一把，发现只有WebQQ能用，tar.gz和DEB包根本不可用
 
-看来企鹅对linux下的QQ毫不在乎，安装不了都不知道，还不如坦诚一点直接说不支持
+看来企鹅对linux下的QQ毫不在乎，都无法安装
 
+[知乎](http://www.zhihu.com/question/19756827)上说，MAC和linux版本支持的不好是因为体量太小，想想也是，这些三高人士和geek谁会掏钱去买齐赤橙黄绿青蓝紫钻呢
 
 ### 使用WebQQ
 
