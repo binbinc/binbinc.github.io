@@ -24,7 +24,7 @@ unpublished:  false
 markdown:     kramdown
 highlighter:  pygments
 lsi:          false
-excerpt_separator: "\n\n"
+excerpt_separator: <!--more-->
 
 # Serving
 detach:       false
