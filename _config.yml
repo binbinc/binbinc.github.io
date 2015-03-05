@@ -55,11 +55,12 @@ nav:
   - text: 文章归档
     url: /archives.html
   - text: 工具
-    url: /tools.html    
-  - text: 联系我
-    url: /contact.html
+    url: /tools.html
   - text: 友情链接
-    url: /links.html
+    url: /links.html    
+  - text: 关于我
+    url: /contact.html
+
 
 #Author config
 author:
