@@ -54,6 +54,8 @@ nav:
     url: /categories.html
   - text: 文章归档
     url: /archives.html
+  - text: 工具
+    url: /tools.html    
   - text: 联系我
     url: /contact.html
   - text: 友情链接
@@ -62,7 +64,7 @@ nav:
 #Author config
 author:
     name: binbinc
-    email: canybox@163.com
+    email: binbincd@163.com
     imageLink: ./images/portrait.jpg
     simpleIntro: 我是「binbinc」，读书行路，为梦想加油
     detailIntro:
