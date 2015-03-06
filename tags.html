@@ -1,0 +1,15 @@
+---
+layout: default
+title: Tags
+---
+<div class="article">
+    <h3 class="title">{{ page.title }}</h3>
+    <ul class="categories">
+    {% assign categories_list = site.categories %}
+    {% for category in categories_list %}
+        <li class="categories-item"><a href="{{ BASE_PATH }}{{ site.JB.categories_path }}#{{ category[0] }}-ref">
+            {{ category[0] | join: "/" }}
+        </a></li>
+    {% endfor %}
+    </ul>
+</div>
