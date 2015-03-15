@@ -16,6 +16,7 @@ asterisk可以在linux环境下作为纯软件部署，提供VoIP PBX电信功�
 Step 1: 到[官网](http://www.asterisk.org/downloads)下最新的包
 
 Step 2: 解压缩，进入安装包目录执行安装脚本检测环境和配置，可能会因为少包而出错
+
 ```sh
 $ cd asterisk-11.0.1
 $ ./configure
@@ -23,6 +24,7 @@ $ ./configure
 ![asterisk_install](http://7wy3wu.com1.z0.glb.clouddn.com/asterisk-11.0.1-install-1.png)
 
 Step 3: 出现星号图案表示安装成功，进行安装
+
 ```sh
 $ make clean
 $ make all
@@ -33,10 +35,12 @@ $ make install
 根据提示安装samples和progdocs
 
 Step 4: 键入下面两个命令进入控制台
+
 ```sh
 $ asterisk
 $ asterisk -r
 ```
+
 ###遇到的问题：
 
 * 缺少libxml2开发包
@@ -62,3 +66,4 @@ $ apt-get install ncurses-dev
 > * ubuntu版本为14.04 LTS
 > * asterisk版本为11.0.1
 > * 安装过程参考了[这里](http://www.linuxidc.com/Linux/2013-01/78299.htm)
+
