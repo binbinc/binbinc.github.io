@@ -5,8 +5,8 @@ date:   2015-03-15 14:47:10
 category: "Linux"
 ---
 
-最近在研究CLI，无意中在[chinaunix](http://download.chinaunix.net/download.php?id=44893&ResourceID=566)上发现了asterisk。
-asterisk在linux环境下作为纯软件部署，提供VoIP PBX电信功能，代码开源可以进行扩展定制。
+最近在研究CLI，无意中在[chinaunix](http://download.chinaunix.net/download.php?id=44893&ResourceID=566)上发现一个好玩的。
+asterisk在linux环境下作为纯软件部署，提供VoIP PBX电信功能，可以基于开源代码进行扩展定制。
 
 > Asterisk是一个开放源代码的软件VoIP PBX系统，它是一个运行在Linux环境下的纯软件实施方案。Asterisk是一种功能非常齐全的应用程序，提供了许多电信功能，能够把你的x86机 器变成你自己的交换机，还能够当作一台企业级的商用交换机。Asterisk让人激动的事情是它在小企业预算可承受的范围内提供了商业交换机的功能和可伸 缩性。你可以使用一台老式的奔腾3计算机，让你的机构看起来就同世界上的大企业一样。
 
