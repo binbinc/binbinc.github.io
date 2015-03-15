@@ -3,7 +3,6 @@ layout: post
 title:  Ubuntu下安装Asterisk实践
 date:   2015-03-15 14:47:10
 category: "Linux"
-tags:   "asterisk" "cli"
 ---
 
 最近在研究CLI，无意中在[chinaunix](http://download.chinaunix.net/download.php?id=44893&ResourceID=566)上发现了asterisk。
