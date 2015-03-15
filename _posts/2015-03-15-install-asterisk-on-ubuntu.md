@@ -3,7 +3,7 @@ layout: post
 title:  Ubuntu下安装Asterisk实践
 date:   2015-03-15 14:47:10
 category: "Linux"
-tags: "asterisk"  "cli"
+tags: "asterisk","cli"
 ---
 
 > * ubuntu版本为14.04 LTS
