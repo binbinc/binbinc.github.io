@@ -6,8 +6,11 @@ category: "Linux"
 ---
 
 Sublime Text 3使用了一段时间，确实好用，现在可以删除SourceInsight和UtraEdit了。
+
 记得谁说过一句话，“改变我人生观的是Vim，改变我世界观的是Emacs，改变我价值观的是Sublime Text”。
+
 虽然觉得有点夸张，但这足以印证这些神×编辑器的强大。
+
 对Sublime Text的使用过程和技巧进行了总结，后续会持续更新。
 
 
