@@ -1,32 +1,53 @@
 ---
-layout: default
-title: binbinc
-keywords: binbinc, blog
+title: binbinc.com-BBC
+layout: page
 ---
+
+<ul class="listing">
 {% for post in paginator.posts %}
-    <div class="article">
-        <h3 class="title"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h3>
-        <article class="rexp">
-            <p>{{ post.excerpt }}</p>
-        </article>
-        <a href="{{ site.url }}{{ post.url }}" class="more"><i class="icon-link"></i></a>
-        <div class="info">
-            <span class="info-title"><i class="icon-calendar"></i> Published: </span>
-            <span class="info-date">{{ post.date | date_to_string }}</span>
-        </div>
-    </div>
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if year != y %}
+    {% assign year = y %}
+    <li class="listing-seperator">{{ y }}</li>
+  {% endif %}
+  <li class="listing-item">
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </li>
 {% endfor %}
-{% if paginator.total_pages > 1 %}
-    <nav class="pagination fn-clear">
-        <span class="pagination-icon"><i class=" icon-copy"></i></span>
-        <ul class="pagination-list">
-            {% for page in (1..paginator.total_pages) %}
-                {% if page == paginator.page %}
-                    <li class="current"><a href="javascript:void(0);">{{ page }}</a></li>
-                {% else %}
-                    <li><a href="{{ site.url }}/{%if page > 1 %}page{{ page }}/{% endif %}">{{ page }}</a></li>
-                {% endif %}
-            {% endfor %}
-        </ul>
-    </nav>
-{% endif %}
+</ul>
+
+<div id="post-pagination" class="paginator">
+
+  {% if paginator.previous_page %}
+    {% if paginator.previous_page == 1 %}
+    <a href="/"><前页</a>
+    {% else %}
+    <a href="/page{{paginator.previous_page}}"><前页</a>
+    {% endif %}
+  {% else %}
+    <span class="previous disabled"><前页</span>
+  {% endif %}
+
+      {% if paginator.page == 1 %}
+      <span class="current-page">1</span>
+      {% else %}
+      <a href="/">1</a>
+      {% endif %}
+
+    {% for count in (2..paginator.total_pages) %}
+      {% if count == paginator.page %}
+      <span class="current-page">{{count}}</span>
+      {% else %}
+      <a href="/page{{count}}">{{count}}</a>
+      {% endif %}
+    {% endfor %}
+
+  {% if paginator.next_page %}
+    <a class="next" href="/page{{paginator.next_page}}">后页></a>
+  {% else %}
+    <span class="next disabled" >后页></span>
+  {% endif %}
+  (共{{ paginator.total_posts }}篇)
+</div>
+
