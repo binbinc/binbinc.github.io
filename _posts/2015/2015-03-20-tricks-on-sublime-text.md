@@ -5,7 +5,7 @@ date:   2015-03-20
 categories:
 - linux
 tags:
-- sublime
+- editor, sublime
 ---
 
 Sublime Text 3使用了一段时间，确实好用，现在可以删除SourceInsight和UtraEdit了。<br />
@@ -27,7 +27,7 @@ Sublime Text 3使用了一段时间，确实好用，现在可以删除SourceIns
 * SublimeREPL：直接在编辑器中运行一个解释器，支持Python和Ruby
 * ClickableURLs: 可以让文件中的URL可点击
 * Soda Theme: 更换ST的外观主题
-* SideBarEnhancements: 改进ST的侧边栏，
+* SideBarEnhancements: 改进ST的侧边栏
 
 ##Sublime Text使用技巧
 * Ctrl+p  搜索所有Project中的文件
