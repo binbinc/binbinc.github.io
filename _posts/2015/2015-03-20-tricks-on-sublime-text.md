@@ -9,10 +9,12 @@ tags:
 ---
 
 Sublime Text 3使用了一段时间，确实好用，现在可以删除SourceInsight和UtraEdit了。
-记得谁说过一句话，“改变我人生观的是Vim，改变我世界观的是Emacs，改变我价值观的是Sublime Text”。
-虽然觉得有点夸张，但这足以印证这些神×编辑器的强大。
-对Sublime Text的使用过程和技巧进行了总结，后续会持续更新。
 
+记得谁说过一句话，“改变我人生观的是Vim，改变我世界观的是Emacs，改变我价值观的是Sublime Text”。
+
+虽然有点夸张，但这足以印证这些神×编辑器的强大。
+
+对Sublime Text的使用过程和技巧进行了总结，后续会持续更新。
 
 ##Sublime Text的优点
 * 可管理各种类型的工程
@@ -25,6 +27,9 @@ Sublime Text 3使用了一段时间，确实好用，现在可以删除SourceIns
 * Markdown Editing：markdown编辑增强
 * Ctags：代码跳转工具
 * SublimeREPL：直接在编辑器中运行一个解释器，支持Python和Ruby
+* ClickableURLs: 可以让文件中的URL可点击
+* Soda Theme: 更换ST的外观主题
+* SideBarEnhancements: 改进ST的侧边栏，
 
 ##Sublime Text使用技巧
 * Ctrl+p  搜索所有Project中的文件
