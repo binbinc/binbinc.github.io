@@ -8,9 +8,7 @@ tags:
 - 字节序
 ---
 
-
 今天有工作涉及到字节序，抽空温习了一把，将baidu来的资料整理了放这里。
-
 
 ### 比特序与字节序
 
@@ -65,7 +63,6 @@ Little Endian
 
 ###参考资料
 
-比特序：[http://en.wikipedia.org/wiki/Bit_numbering](http://en.wikipedia.org/wiki/Bit_numbering)
+比特序：[http://en.wikipedia.org/wiki/Bit_numbering](http://en.wikipedia.org/wiki/Bit_numbering)<br />
 字节序：[http://en.wikipedia.org/wiki/Endianess](http://en.wikipedia.org/wiki/Endianess)
-
 
