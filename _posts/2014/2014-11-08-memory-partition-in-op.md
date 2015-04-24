@@ -3,11 +3,7 @@ layout: post
 title:  一个Linux进程的虚拟存储器分布
 date:   2014-11-08 
 categories:
-<<<<<<< HEAD
 - coding
-=======
-- linux
->>>>>>> origin/master
 tags:
 - 内存分段
 ---
@@ -91,7 +87,3 @@ void main()
 > * 参考了[这里](http://my.oschina.net/pollybl1255/blog/140323)和[这里](http://blog.csdn.net/canbus/article/details/8660065)
 > * 文中的插图来自“深入理解计算机系统”，第10章“虚拟存储器”
 > * 网上有文章针对C++增加了一类“自由存储区”，其实和堆是一类，实在没必要单列
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
