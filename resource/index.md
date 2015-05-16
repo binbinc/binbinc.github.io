@@ -9,6 +9,6 @@ comments: yes
 ======================================
 
 MarkDown语法说明:[http://www.markdown.cn/](http://www.markdown.cn/)<br />
-Python:[www.cnpythoner.com](www.cnpythoner.com)<br />
+Python:[http://www.cnpythoner.com](http://www.cnpythoner.com)<br />
 
 ======================================
