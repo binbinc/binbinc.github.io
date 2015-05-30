@@ -22,7 +22,7 @@ tags:
 “MiKTeX Package Manager(Admin)”-->“Repository”-->“Chang Package Repository”位置下，设置代理服务器（可选）和更换源地址。详细的解决过程请[参考](http://tex.stackexchange.com/questions/167562/miktex-connect-failed-in-tcp-connect)。
 4. 在“MiKTeX Package Manager(Admin)”中查找到指定的package进行安装时出现“Windows API error 87: The parameter is incorrect ”问题。通常是已经开了一个MikTeX实例，阻塞了需要安装的package，先关掉这个MikTeX实例就可以解决问题。详细的解决过程请[参考](http://sourceforge.net/p/miktex/mailman/message/28809258/)。
 
-###下载Latex模板
+###下载LaTex模板
 
 有很多Latex模板供选择，挑选自己喜欢的模板：<br />
 1. 标准模板[moderncv](http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/)<br />
@@ -36,7 +36,7 @@ tags:
 详细的解决过程请参考[1](http://www.zhihu.com/question/30102699?sort=created)和[2](http://tex.stackexchange.com/questions/25564/missing-file-from-the-package-symbol)。
 
 
-###通过在线Latex网站生成PDF
+###通过在线LaTex网站生成PDF
 
 1. [sharelatex](https://www.sharelatex.com)
 2. [overleaf](https://www.overleaf.com)
