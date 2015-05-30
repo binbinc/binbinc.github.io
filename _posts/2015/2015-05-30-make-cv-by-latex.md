@@ -9,7 +9,7 @@ tags:
 ---
 
 
-同学最近换工作，需要用LaTex制作简历。<br />
+妹子最近想换工作，需要用LaTex制作简历。<br />
 想当年刚毕业时用word撸的简历，惨不忍睹。<br />
 用LaTex刷简历，最好用现成的模板，不然从0开始就是找虐。<br />
 过程整理如下，方便以后查阅。
@@ -40,5 +40,3 @@ tags:
 
 1. [sharelatex](https://www.sharelatex.com)
 2. [overleaf](https://www.overleaf.com)
-
-
