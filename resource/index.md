@@ -26,7 +26,7 @@ Package Control：插件管理<br />
 Markdown To Clipboard：markdown转html的工具<br />
 Markdown Editing：markdown编辑增强<br />
 Ctags：代码跳转工具<br />
-SublimeREPL：直接在编辑器中运行一个解释器，支持Python和Ruby<br />
+[SublimeREPL](http://blog.chinaunix.net/uid-12014716-id-4269991.html)：直接在编辑器中运行一个解释器，支持Python和Ruby<br />
 ClickableURLs: 可以让文件中的URL可点击<br />
 Soda Theme: 更换ST的外观主题<br />
 SideBarEnhancements: 改进ST的侧边栏<br />
