@@ -24,7 +24,7 @@ tags:
 
 ###下载Latex模板
 
-有很多Latex模板供选择，挑选自己喜欢的模板：
+有很多Latex模板供选择，挑选自己喜欢的模板：<br />
 1. 标准模板[moderncv](http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/)<br />
 2. 豆瓣上推荐的[rpi]模板(http://rpi.edu/dept/arc/training/latex/resumes/)<br />
 3. [latextemplates]的模板(http://www.latextemplates.com/cat/curricula-vitae)
