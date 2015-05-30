@@ -16,7 +16,7 @@ tags:
 
 ###安装CTex
 
-1. [下载CTex](http://www.ctex.org/CTeXDownload/)。
+1. [下载](http://www.ctex.org/CTeXDownload/)CTex。
 2. 如果安装中文版本，使用过程中出现问题提示对话框可能出现乱码，建议安装英文版本。
 3. MiKTeX出现“connect failed in tcp_connect”问题。请检查主机的网络环境，是否打开了防火墙或是在公司内网需要设置代理服务器。在
 “MiKTeX Package Manager(Admin)”-->“Repository”-->“Chang Package Repository”位置下，设置代理服务器（可选）和更换源地址。详细的解决过程请[参考](http://tex.stackexchange.com/questions/167562/miktex-connect-failed-in-tcp-connect)。
@@ -26,8 +26,8 @@ tags:
 
 有很多Latex模板供选择，挑选自己喜欢的模板：<br />
 1. 标准模板[moderncv](http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/)<br />
-2. 豆瓣上推荐的[rpi]模板(http://rpi.edu/dept/arc/training/latex/resumes/)<br />
-3. [latextemplates]的模板(http://www.latextemplates.com/cat/curricula-vitae)
+2. 豆瓣上推荐的[rpi](http://rpi.edu/dept/arc/training/latex/resumes/)模板<br />
+3. [latextemplates](http://www.latextemplates.com/cat/curricula-vitae)的模板
 
 ###通过LaTex模板moderncv生成CV
 
@@ -40,4 +40,5 @@ tags:
 
 1. [sharelatex](https://www.sharelatex.com)
 2. [overleaf](https://www.overleaf.com)
+
 
