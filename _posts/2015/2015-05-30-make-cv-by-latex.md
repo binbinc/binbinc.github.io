@@ -9,25 +9,24 @@ tags:
 ---
 
 
-同学最近换工作，要我在简历方面给点建议。<br />
-我的第一句话就是，用LaTex制作简历。毕竟不是新人了，得体现出专业性。<br />
-通过LaTex刷简历的过程整理如下。
+同学最近换工作，需要用LaTex制作简历。<br />
+想当年刚毕业时用word撸的简历，惨不忍睹。<br />
+用LaTex刷简历，最好用现成的模板，不然从0开始就是找虐。<br />
+过程整理如下，方便以后查阅。
 
 ###安装CTex
 
-1. [下载]CTex(http://www.ctex.org/CTeXDownload/)。
+1. [下载CTex](http://www.ctex.org/CTeXDownload/)。
 2. 如果安装中文版本，使用过程中出现问题提示对话框可能出现乱码，建议安装英文版本。
 3. MiKTeX出现“connect failed in tcp_connect”问题。请检查主机的网络环境，是否打开了防火墙或是在公司内网需要设置代理服务器。在
-“MiKTeX Package Manager(Admin)”-->“Repository”-->“Chang Package Repository”位置下，设置代理服务器（可选）和更换源地址。
-详细的解决过程请[参考](http://tex.stackexchange.com/questions/167562/miktex-connect-failed-in-tcp-connect)。
-4. 在“MiKTeX Package Manager(Admin)”中查找到指定的package进行安装时出现“Windows API error 87: The parameter is incorrect ”问题。通常是已经开了一个MikTeX实例，阻塞了需要安装的package，先关掉这个MikTeX实例就可以解决问题。
-详细的解决过程请[参考](http://sourceforge.net/p/miktex/mailman/message/28809258/)。
+“MiKTeX Package Manager(Admin)”-->“Repository”-->“Chang Package Repository”位置下，设置代理服务器（可选）和更换源地址。详细的解决过程请[参考](http://tex.stackexchange.com/questions/167562/miktex-connect-failed-in-tcp-connect)。
+4. 在“MiKTeX Package Manager(Admin)”中查找到指定的package进行安装时出现“Windows API error 87: The parameter is incorrect ”问题。通常是已经开了一个MikTeX实例，阻塞了需要安装的package，先关掉这个MikTeX实例就可以解决问题。详细的解决过程请[参考](http://sourceforge.net/p/miktex/mailman/message/28809258/)。
 
 ###下载Latex模板
 
-有很多Latex模板供选择，挑选自己喜欢的模板：<br />
-1. 标准模板[moderncv](http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/)
-2. 豆瓣上推荐的[rpi]模板(http://rpi.edu/dept/arc/training/latex/resumes/)
+有很多Latex模板供选择，挑选自己喜欢的模板：
+1. 标准模板[moderncv](http://www.ctan.org/tex-archive/macros/latex/contrib/moderncv/)<br />
+2. 豆瓣上推荐的[rpi]模板(http://rpi.edu/dept/arc/training/latex/resumes/)<br />
 3. [latextemplates]的模板(http://www.latextemplates.com/cat/curricula-vitae)
 
 ###通过LaTex模板moderncv生成CV
