@@ -31,7 +31,7 @@ tags:
 
 ###通过LaTex模板moderncv生成CV
 
-1. 在cmd模式下进入moderncv的目录，通过命令`pdflatex template-zh.tex`编译生成PDF。
+1. 在cmd模式下进入moderncv的目录，通过命令<code>pdflatex template-zh.tex</code>编译生成PDF。
 2. 编译过程中如果出现“*.sty”找不到的问题，先退出编译过程，在“MiKTeX Package Manager(Admin)中安装好后回来继续编。
 详细的解决过程请参考[1](http://www.zhihu.com/question/30102699?sort=created)和[2](http://tex.stackexchange.com/questions/25564/missing-file-from-the-package-symbol)。
 
