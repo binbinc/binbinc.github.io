@@ -12,6 +12,8 @@ comments: yes
 MarkDown语法说明：[http://www.markdown.cn/](http://www.markdown.cn/)<br />
 
 ####Python
+
+啄木鸟社区：[http://wiki.woodpecker.org.cn](http://wiki.woodpecker.org.cn)<br />
 老王Python：[http://www.cnpythoner.com](http://www.cnpythoner.com)<br />
 Python之禅：[http://www.pythontip.com/](http://www.pythontip.com/)<br />
 Python入门导引：[http://www.cnblogs.com/wei-li/archive/2012/03/24/2415124.html](http://www.cnblogs.com/wei-li/archive/2012/03/24/2415124.html)<br />

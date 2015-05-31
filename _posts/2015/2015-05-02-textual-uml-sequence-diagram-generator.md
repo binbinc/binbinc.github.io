@@ -13,8 +13,8 @@ tags:
 对于使用textual language生成顺序图的方案，有几种解决办法：
 
 > * 应用程序：ESSD(EventStudio System Designer)是最好用的付费工具，没有之一。如果是大公司壕，果断上ESSD付费版本。
-> * PlantUml: 第三方的开源可描述性UML语法标准，已经有很多现成的工具供参考。
-> * Markdown+js: 使用轻量级语法描述，通过js生成顺序图，有几个web应用可以使用。
+> * PlantUml：第三方的开源可描述性UML语法标准，已经有很多现成的工具供参考。
+> * Markdown+js：使用轻量级语法描述，通过js生成顺序图，有几个web应用可以使用。
 
 
 ###应用程序
