@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  linux下使用Terminator
+title:  在linux下使用Terminator
 date:   2015-09-09
 categories:
 - linux
