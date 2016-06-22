@@ -13,7 +13,7 @@ tags:
 --------
 
 > * 本文仅描述DSL关键字的定义与基本用途，是一份简介
-> * 大部分内容摘选自袁英杰的《事务模型：TRANSACTION DSL（一份并不简短的简介）》，了解更多内容请参考[原文](http://wiki.zte.com.cn/display/LTEdev2Shenzhen/DSL)
+> * 大部分内容摘选自袁英杰的《事务模型：TRANSACTION DSL（一份并不简短的简介）》，了解更多内容请参考原文
 
 <br>
 
