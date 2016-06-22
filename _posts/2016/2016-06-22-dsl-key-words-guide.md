@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  DSL关键字入门
+title:  TRANSACTION DSL 关键字入门
 date:   2016-06-22
 categories:
 - Coding
@@ -9,7 +9,6 @@ tags:
 ---
 
 
-# TRANSACTION DSL 关键字入门
 --------
 
 > * 本文仅描述DSL关键字的定义与基本用途，是一份简介
