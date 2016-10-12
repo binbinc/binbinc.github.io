@@ -3,13 +3,11 @@ layout: post
 title:  TRANSACTION DSL 关键字入门
 date:   2016-06-22
 categories:
-- Coding
+- coding
 tags:
 - dsl
 ---
 
-
---------
 
 > * 本文仅描述DSL关键字的定义与基本用途，是一份简介
 > * 大部分内容摘选自袁英杰的《事务模型：TRANSACTION DSL（一份并不简短的简介）》，了解更多内容请参考原文
