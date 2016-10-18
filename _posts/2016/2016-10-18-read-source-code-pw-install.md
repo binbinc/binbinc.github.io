@@ -126,8 +126,8 @@ migrate [--bench[="..."]] [--database[="..."]] [--force] [--path[="..."]] [--pac
 ```
 
 终于这一次迁移表成功了，
-```php
 
+```php
 changbinMac:frontend changbin$ php artisan migrate
 **************************************
 *     Application In Production!     *
