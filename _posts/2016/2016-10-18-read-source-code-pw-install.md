@@ -144,6 +144,7 @@ Migrated: 2015_05_22_220540_add_version_user_relation
 Migrated: 2015_06_15_224221_add_tag_parent
 Migrated: 2015_06_30_125536_add_sessions_table
 Migrated: 2015_07_29_130508_alter_versions
+
 ```
 
 安装成功。
