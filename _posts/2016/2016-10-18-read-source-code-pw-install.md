@@ -55,7 +55,7 @@ sudo mv composer.phar /usr/local/bin/composer
 
 ##Step-4：安装NPM
 
-按照官网[Initial-installation][2]，执行下面的命令，
+参考官网[Initial-installation][2]，执行下面的命令，
 
 ```php
 //run composer
