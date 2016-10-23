@@ -21,11 +21,11 @@ PHP 5.5.30 (cli) (built: Oct 23 2015 17:21:45)
 Copyright (c) 1997-2015 The PHP Group
 Zend Engine v2.5.0, Copyright (c) 1998-2015 Zend Technologies
 ```
-如果还没安装 PHP，请自行安装。
+如果还没安装 PHP，可以安装MAMP。
 
 ##Step-2：查看是否有安装sqlite
 
-查看是否有安装sqlite，在Mac的Terminal键入“sqlite3 --version”，如下所示：
+查看是否有安装sqlite，在Terminal键入“sqlite3 --version”，如下所示：
 
 ```php
 $ sqlite3 --version
@@ -50,10 +50,26 @@ php -r "unlink('composer-setup.php');"
 sudo mv composer.phar /usr/local/bin/composer
 ```
 
-关于如何安装Composer，请参考[这里][1]。
+关于如何安装Composer，可以参考[这里][1]。
 
 
-##Step-4：安装Laravel
+##Step-4：安装NPM
+
+按照官网[Initial-installation][2]，执行下面的命令，
+
+```php
+//run composer
+cd frontend
+composer install
+
+//install gulp cli and bower package manager globally, run the default task
+sudo npm install -g gulp bower
+npm install
+bower install
+gulp
+```
+
+##Step-5(optional)：安装Laravel
 
 安装Laravel，通过 Laravel 安装器：
 
@@ -61,23 +77,18 @@ sudo mv composer.phar /usr/local/bin/composer
 composer global require "laravel/installer"
 ```
 
-确保 ~/.composer/vendor/bin 在[系统路径][2]中，否则不能在任意路径调用 laravel 命令。
+确保 ~/.composer/vendor/bin 在[系统路径][3]中，否则不能在任意路径调用 laravel 命令。
 安装完成后，可以通过简单的 laravel new 命令即可在当前目录下创建一个新的 Laravel 应用:
 ```php
 laravel new blog
 ```
 
-##Step-5：安装PaperWork
 
-按照官网[Initial-installation][3]，执行下面的命令，
+##Step-6：安装PaperWork
+
+安装PaperWork，移植数据库：
 
 ```php
-//install gulp cli and bower package manager globally, run the default task
-sudo npm install -g gulp bower
-npm install
-bower install
-gulp
-
 //create a database named "paperwork"
 DROP DATABASE IF EXISTS paperwork; CREATE DATABASE IF NOT EXISTS paperwork DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 GRANT ALL PRIVILEGES ON paperwork.* TO 'paperwork'@'localhost' IDENTIFIED BY 'paperwork' WITH GRANT OPTION; FLUSH PRIVILEGES;
@@ -110,7 +121,7 @@ migrate [--bench[="..."]] [--database[="..."]] [--force] [--path[="..."]] [--pac
 
 ```
 
-继续翻墙，发现已经有[答案][5]，需要在config/database.php中加上unix_socket这一行。
+继续翻墙，发现已经有[答案][5]，需要在app/config/database.php中加上unix_socket这一行。
 
 ```php
 'mysql' => array(
@@ -157,8 +168,8 @@ Migrated: 2015_07_29_130508_alter_versions
 
 
   [1]: http://pkg.phpcomposer.com
-  [2]: http://www.cyberciti.biz/faq/appleosx-bash-unix-change-set-path-environment-variable/
-  [3]: https://github.com/twostairs/paperwork/wiki/Initial-installation
+  [2]: https://github.com/twostairs/paperwork/wiki/Initial-installation
+  [3]: http://www.cyberciti.biz/faq/appleosx-bash-unix-change-set-path-environment-variable/
   [4]: http://stackoverflow.com/questions/16830405/laravel-requires-the-mcrypt-php-extension
   [5]: http://stackoverflow.com/questions/19475762/setting-up-laravel-on-a-mac-php-artisan-migrate-error-no-such-file-or-directory
 
