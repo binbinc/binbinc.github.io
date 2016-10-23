@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  PaperWork源码阅读＃2：安装篇
-date:   2016-10-19
+title:  PaperWork源码阅读＃2：mac安装篇
+date:   2016-10-18
 categories:
 - coding
 tags:
@@ -69,12 +69,13 @@ laravel new blog
 
 ##Step-5：安装PaperWork
 
-按照官网[说明][3]，执行下面的命令，
+按照官网[Initial-installation][3]，执行下面的命令，
 
 ```php
-//install gulp cli globally, run the default task
-sudo npm install -g gulp
+//install gulp cli and bower package manager globally, run the default task
+sudo npm install -g gulp bower
 npm install
+bower install
 gulp
 
 //create a database named "paperwork"
@@ -150,8 +151,15 @@ Migrated: 2015_07_29_130508_alter_versions
 安装成功。
 
 
+注册用户后进入PaperWork工作界面，不能创建笔记，没有“File”和“Edit”等菜单。
+按照Initial-installation的说明仔细检查，发现第一次安装没有安装bower，重新安装就好了。
+
+
+
   [1]: http://pkg.phpcomposer.com
   [2]: http://www.cyberciti.biz/faq/appleosx-bash-unix-change-set-path-environment-variable/
-  [3]: http://paperwork.rocks
+  [3]: https://github.com/twostairs/paperwork/wiki/Initial-installation
   [4]: http://stackoverflow.com/questions/16830405/laravel-requires-the-mcrypt-php-extension
   [5]: http://stackoverflow.com/questions/19475762/setting-up-laravel-on-a-mac-php-artisan-migrate-error-no-such-file-or-directory
+
+
